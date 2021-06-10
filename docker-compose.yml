@@ -25,4 +25,9 @@ services:
         - ./actions:/app/actions
       ports:
         - "5055:5055"  
-  
+    chatbot_ui:
+      container_name: "chatbot_ui"
+      build: 
+        context: frontend
+      ports: 
+        - "3000:3000"
