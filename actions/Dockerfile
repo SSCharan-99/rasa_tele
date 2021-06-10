@@ -8,3 +8,12 @@ RUN pip3 install recognizers-text-suite
 
 # Switch back to a non-root user
 USER 1001
+
+WORKDIR /app
+COPY . /app
+COPY ./data /app/actions
+
+
+VOLUME /app
+VOLUME /app/actions
+CMD ["run","actions"]
