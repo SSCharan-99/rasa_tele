@@ -57,11 +57,11 @@ action_endpoint:
 #  queue: queue
 
 
-tracker_store:
-    type: SQL
-    dialect: "mysql+pymysql"  # the dialect used to interact with the db
-    url: "127.0.0.1"  # (optional) host of the sql db, e.g. "localhost"
-    db: "user_data"  # path to your db
-    username:  "root" # username used for authentication
-    password:  "bhanu9294" # password used for authentication
+# tracker_store:
+#     type: SQL
+#     dialect: "mysql+pymysql"  # the dialect used to interact with the db
+#     url: "127.0.0.1"  # (optional) host of the sql db, e.g. "localhost"
+#     db: "user_data"  # path to your db
+#     username:  "root" # username used for authentication
+#     password:  "bhanu9294" # password used for authentication
 
